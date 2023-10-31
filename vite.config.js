@@ -6,7 +6,5 @@ import svgr from "vite-plugin-svgr";
 export default defineConfig({
   plugins: [react(),svgr()],
   base: '/azmikurniawan/', // Sesuaikan dengan URL repository GitHub Pages Anda
-  build: {
-    outDir: 'dist', // Direktori output untuk build produksi
-  },
+  
 })
